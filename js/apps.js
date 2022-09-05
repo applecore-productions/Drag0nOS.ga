@@ -37,10 +37,6 @@ window.open("https://sign.starfiles.co/?ipa=ce4f22bd3989&p12=" + p12 + "&mobilep
 }
 function Root() {
 window.open("https://sign.starfiles.co/?ipa=104a124769d3&p12=" + p12 + "&mobileprovision=" + mobileprovision + "&password=" + password + "&redirect=true","_self")
-}
-function sign() {
-ipa = document.getElementById("ipa").value;                         
-window.open("https://sign.starfiles.co/?ipa=" + ipa + "&p12=" + p12 + "&mobileprovision=" + mobileprovision + "&password=" + password + "&redirect=true","_self")
 } 
 function UTM() {
 window.open("https://sign.starfiles.co/?ipa=c692419ff772&p12=" + p12 + "&mobileprovision=" + mobileprovision + "&password=" + password + "&redirect=true","_self")
