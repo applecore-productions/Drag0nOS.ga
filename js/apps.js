@@ -1,5 +1,5 @@
-var p12 = "06f806f66e88"
-var mobileprovision = "7238a910232e"
+var p12 = "8ff9b5fd2d4a"
+var mobileprovision = "5c0998f8c541"
 var password = "AppleP12.com"
 
 function unc0ver() {
