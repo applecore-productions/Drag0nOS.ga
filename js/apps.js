@@ -1,4 +1,4 @@
-var p12 = "8ff9b5fd2d4a"
+var p12 = "edcde2474b86"
 var mobileprovision = "5c0998f8c541"
 var password = "AppleP12.com"
 
