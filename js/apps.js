@@ -65,3 +65,6 @@ window.open("https://sign.starfiles.co/?ipa=0f7babab03a4&p12=" + p12 + "&mobilep
 function SnapChat() {
 window.open("https://sign.starfiles.co/?ipa=927c538c57c6&p12=" + p12 + "&mobileprovision=" + mobileprovision + "&password=" + password + "&redirect=true","_self")
 }
+function SpooferPro() {
+window.open("https://sign.starfiles.co/?ipa=8479b0c80ad9&p12=" + p12 + "&mobileprovision=" + mobileprovision + "&password=" + password + "&redirect=true","_self")
+}
