@@ -1,0 +1,19 @@
+{
+  "META": {
+    "repoName": "Drag0nOS",
+    "repoIcon": "https://pbs.twimg.com/profile_images/1538408120703229952/NWhn8zpZ_400x400.jpg"
+  },
+  "Tweaked": [
+    {
+      "name": "Drag0nOS ",
+      "version": "1.0",
+      "icon": "",
+      "down": "https://github.com/PoisonDragon704/SignedIPAS/blob/main/Drag0nOS.ipa",
+      "dev": "Drag0nOS ",
+      "banner": "https://cdn.bio.link/uploads/campaign_pictures/2022-07-22/M1WMFtsBzhX4pIbV4_52_11_modified.png",
+      "category": "Tweaked",
+      "description": "Drag0nOS ",
+      "bundleID": "ga.Drag0nOS.App",
+      "debs": [
+        ""
+      ],
