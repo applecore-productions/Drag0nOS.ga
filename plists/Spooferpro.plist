@@ -11,31 +11,31 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/spoofer-pro-ss/SpooferProSS.ipa</string>
+					<string> https://archive.org/download/spoofer-pro_202210/SpooferPro.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://pbs.twimg.com/profile_images/1464366373824569347/NBjYbxNE_400x400.jpg</string>
+					<string> https://poisondragon704.github.io/Img/Drag0nOS.png </string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string> https://pbs.twimg.com/profile_images/1464366373824569347/NBjYbxNE_400x400.jpg</string>
+					<string> https://poisondragon704.github.io/Img/Drag0nOS.png </string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.sideload.Spooferpro</string>
+				<string>com.drag0nos.Spooferpro</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>SideloadStore - SpooferPro</string>
+				<string>Drag0nOS - SpooferPro</string>
 			</dict>
 		</dict>
 	</array>
