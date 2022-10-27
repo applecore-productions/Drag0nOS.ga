@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/spoofer-pro-ss/SpooferProSS.ipa</string>
+					<string>https://archive.org/download/spoofer-pro_202210/SpooferPro.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.sideload.SpooferPro</string>
+				<string>com.drag0nos.SpooferPro</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>SpooferPro - SideloadStore</string>
+				<string>SpooferPro - Drag0nOS</string>
 			</dict>
 		</dict>
 	</array>
