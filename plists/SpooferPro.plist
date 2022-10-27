@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Drag0nOS.SpooferPro</string>
+				<string>com.sideloadstore.SpooferPro</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
