@@ -11,31 +11,31 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string> https://github.com/PoisonDragon704/SignedIPAS/releases/download/test/TweakdooriPogo.ipa</string>
+					<string>https://archive.org/download/spoofer-pro-ss/SpooferProSS.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://poisondragon704.github.io/Img/Drag0nOS.png</string>
+					<string>https://pbs.twimg.com/profile_images/1464366373824569347/NBjYbxNE_400x400.jpg</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://poisondragon704.github.io/Img/Drag0nOS.png</string>
+					<string> https://pbs.twimg.com/profile_images/1464366373824569347/NBjYbxNE_400x400.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Drag0nOS.Spooferpro</string>
+				<string>com.sideload.Spooferpro</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Drag0nOS - SpooferPro</string>
+				<string>SideloadStore - SpooferPro</string>
 			</dict>
 		</dict>
 	</array>
