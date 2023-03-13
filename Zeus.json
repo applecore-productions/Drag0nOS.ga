@@ -1,0 +1,29 @@
+
+    "info": [
+        {
+            "name": "Drag0nOS",
+            "icon": "Drag0nOS.ga/Img/Drag0nOS.png",
+            "status": "Signed"
+        }
+    ],
+    "socials": [
+        {
+            "name": "Twitter",
+            "icon": "https://cdn-icons-png.flaticon.com/512/124/124021.png",
+            "link": "twitter.com/Drag0nOS"
+        },
+        {
+            "name": "Discord",
+            "icon": "https://static.vecteezy.com/system/resources/thumbnails/006/892/625/small/discord-logo-icon-editorial-free-vector.jpg",
+            "link": ""
+        }
+    ],
+    "apps": [
+        {
+            "title": "Drag0nOS",
+            "icon": "Drag0nOS.ga/Img/Drag0nOS.png",
+            "developer": "Drag0n",
+            "link": "Drag0nOS.ga"
+        }
+    ]
+}
