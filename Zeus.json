@@ -15,7 +15,7 @@
         {
             "name": "Discord",
             "icon": "https://static.vecteezy.com/system/resources/thumbnails/006/892/625/small/discord-logo-icon-editorial-free-vector.jpg",
-            "link": "Discord.gg"
+            "link": "Discord.com"
         }
     ],
     "apps": [
@@ -23,7 +23,7 @@
             "title": "Drag0nOS",
             "icon": "Drag0nOS.ga/Img/Drag0nOS.png",
             "developer": "Drag0n",
-            "link": "Drag0nOS.ga"
+            "link": "https://github.com/PoisonDragon704/SignedIPAS/blob/main/Drag0nOS.ipa"
         }
     ]
 }
