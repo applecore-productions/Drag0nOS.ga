@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2803039981838041"
-     crossorigin="anonymous"></script>
  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPQ778GHVY"></script>
 <script>
@@ -12,37 +10,86 @@
 
   gtag('config', 'G-LPQ778GHVY');
 </script>
+<meta charset="UTF-8">
 <meta name="propeller" content="9fb9f850d80024f5170e0078f0f123c7">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#2196f3">
 <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
 <title>Drag0nOS</title>
-<link rel="stylesheet" href="css/framework7.bundle.css">
-<link rel="stylesheet" href="css/app.css">
+<link href="
+https://cdn.jsdelivr.net/npm/framework7-icons@5.0.5/css/framework7-icons.min.css
+" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="apple-touch-icon" href="Img/Drag0nOS.png">
-<link rel="icon" href="Img/Drag0nOS.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/framework7@7.1.5/framework7-bundle.min.css" integrity="sha256-DezYglpvAqOH0amlTTULC5CSo1W++2zO6zzF8sGUxCI=" crossorigin="anonymous">
 </head>
-<script data-cfasync="false" src="//d2sffavqvyl9dp.cloudfront.net/?affsd=970794"></script>
-<script data-cfasync="false" src="//d2sffavqvyl9dp.cloudfront.net/?affsd=970785"></script>
 <body>
+        </div>
+      </div>
 <div id="app">
 <div class="views tabs">
-<div style="height:50px"class="toolbar tabbar toolbar-bottom">
-<div style="height:50px;" class="toolbar-inner">
+<div class="toolbar tabbar toolbar-bottom">
+<div class="toolbar-inner">
 <a href="#tab1" class="tab-link tab-link-active"><i class="icon f7-icons if-not-md">house_fill</i><span class="tabbar-label">Home</span></a>
 <a href="#tab2" class="tab-link"><i class="icon f7-icons if-not-md">layers_alt_fill</i><span class="tabbar-label">Apps</span></a></a>
 </div>
 </div>
 <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+<div class="page" data-name="home">
+        <div class="navbar navbar-large transparent">
+          <div class="navbar-bg"></div>
+          <div class="navbar-inner">
+            <div class="title sliding">Drag0nOS</div>
+            <div class="right">
+            <a onclick="location.reload();"class="item-link item-content"><i class="f7-icons">arrow_2_circlepath_circle_fill</i></a>
+            </div>
+            <div class="title-large">
+              <div class="title-large-text">Drag0nOS</div>
+            </div>
+          </div>
+        </div>
 <div class="page page-home">
 <div class="tabs">
 <div id="tab1" class="tab tab-active ">
 <div data-page="index" class="page"> 
 <div class="page-content">
-<h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Drag0nOS</h1>
-<div class="list media-list inset">
+<h1 style="font-size:33px;font-weight:bold;margin-left:7px;">Welcome!</h1>
+<div class="list media-list no-hairlines-between no-hairlines no-chevron apps-list inset">
+            <ul>
+              <li>
+                <div class="item-link item-content">
+                  <div class="item-media"><img style="border-radius:23.3%;" src="Img/Drag0nOS.png" width="44"></div>
+                  <div class="item-inner">
+                    <a class="signeddot""></a>
+                    <div class="item-title-row">
+                      <div class="item-title">
+                        <script>
+                          var ios = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g, ".").replace("OS", "iOS"))
+                          document.write("" + ios + "")
+                        </script>
+                      </div>
+                    </div>
+                    <div style="font-size: 12px;" class="item-subtitle">
+                      <script>
+                        var mydate = new Date()
+                        var year = mydate.getYear()
+                        var day = mydate.getDay()
+                        var month = mydate.getMonth()
+                        var daym = mydate.getDate()
+                        if (daym < 10)
+                          daym = "0" + daym
+                        var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+                        var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+                        document.write("" + dayarray[day] + ", " + montharray[month] + " " + daym + "")
+                      </script>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+<div class="list list-strong media-list inset">
 <ul>
 <li>
 <a onclick="location='https://twitter.com/Drag0nOS'" class="item-link item-content">
@@ -68,8 +115,8 @@
 </a> 
 </li>
 <li>
-<a onclick="location'itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Delta.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/DeltaIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#delta-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/delta.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Delta</div>    
@@ -87,24 +134,15 @@
 </div>
 <div id="tab2" class="tab">
 <div data-page="index" class="page"> 
-<div class="page-content">
-<h1 style="font-size:40px;margin-left:5%;margin-top:20px;">Apps</h1>
-<div class="searchbar-backdrop"></div>
-          <form class="searchbar searchbar-init" data-search-container=".app-list" data-search-in=".item-title">
-            <div class="searchbar-inner">
-              <div class="searchbar-input-wrap">
-                <input type="search" placeholder="Search">
-                <i class="searchbar-icon"></i>
-                <span class="input-clear-button"></span>
-              </div>
-              <span class="searchbar-disable-button">Cancel</span>
-            </div>
-          </form>
-          <div class="list media-list app-list">
+<div class="searchbar-backdrop"></div><form class="searchbar searchbar-init" data-search-container=".app-list" data-search-in=".item-title">
+                                <div class="searchbar-inner"><div class="searchbar-input-wrap"><input type="search" placeholder="Search for apps" class=""style="border-radius:11px;"><i class="searchbar-icon"></i><span class="input-clear-button"></span></div><span class="searchbar-disable-button color-blue">Cancel</span>
+                                </div>
+                            </form>
+                                <div class="page-content">                                                  <div class="list list-strong media-list inset app-list">
 <ul>
 <li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/TrollStore-Fugu15.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="Img/Drag0nOS.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#trollstore-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/trollstore.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Trollstore</div>    
@@ -113,8 +151,9 @@
 </div>
 </a>
 </li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Unc0ver.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://Drag0nOS.ga/Img/unc0ver.png" width="60"/></div>
+<li>
+<a href="#" class="item-link item-content popup-open" data-popup="#uncover-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/uncover.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Unc0ver</div>    
@@ -124,8 +163,8 @@
 </a>
 </li>
 <li>
-<a onclick="Taurine()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/TaurineIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#taurine-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/taurine.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Taurine</div>    
@@ -135,8 +174,8 @@
 </a>
 </li>
 <li>
-<a onclick="Odyssey()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/OdysseyIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#odyssey-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/odyssey.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Odyssey</div>    
@@ -146,8 +185,8 @@
 </a>
 </li>
 <li>
-<a onclick="Chimera()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/ChimeraIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#chimera-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/chimera.jpeg" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Chimera</div>    
@@ -157,8 +196,8 @@
 </a>
 </li>
 <li>
-<a onclick="FilzaEscaped15()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/FilzaEscapedIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#filza15-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/filza.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Filza Escaped 15</div>    
@@ -167,9 +206,9 @@
 </div>
 </a>
 </li>
- </li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/FilzaEscaped16.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/FilzaescapedIcon.png" width="60"/></div>
+ <li>
+<a href="#" class="item-link item-content popup-open" data-popup="#filza16-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/filza.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">FilzaEscaped16</div>    
@@ -179,8 +218,8 @@
 </a>
 </li>
 <li>
-<a onclick="Root()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/RootIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#root-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/root.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Root</div>    
@@ -190,8 +229,8 @@
 </a>
 </li>
 <li>
-<a onclick="location'itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Delta.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://Drag0nOS.ga/Img/delta.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#delta-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/delta.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Delta</div>    
@@ -212,8 +251,8 @@
 </a>
 </li>
 <li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/iPogo.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://Drag0nOS.ga/Img/ipogo.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#ipogo-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/ipogo.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">iPogo</div>    
@@ -222,9 +261,9 @@
 </div>
 </a>
 </li> 
-</li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Minecraft.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/MinecraftIcon.png" width="60"/></div>
+<li>
+<a href="#" class="item-link item-content popup-open" data-popup="#minecraft-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/minecraft.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Minecraft</div>    
@@ -233,9 +272,9 @@
 </div>
 </a>
 </li> 
-</li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/WhatsApp.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/WhatsApp++Icon.png" width="60"/></div>
+<li>
+<a href="#" class="item-link item-content popup-open" data-popup="#watusi-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/watusi.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Watusi</div>    
@@ -243,9 +282,10 @@
 <div class="item-subtitle">Apps</div>
 </div>
 </a>
-</li> </li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Zinitevi.plist'" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/ZiniTeviIcon.png" width="60"/></div>
+</li>
+<li>
+<a href="#" class="item-link item-content popup-open" data-popup="#zinitevi-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/zinitevi.jpg" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">Zinitevi</div>    
@@ -255,7 +295,7 @@
 </a>
 </li>
 <li>
-<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/iPogo.plist'" class="item-link item-content">
+<a href="#" class="item-link item-content popup-open" data-popup="#spooferpro-popup">
 <div class="item-media"><img style="border-radius: 23.3%;" src="https://spooferpro.com/android-chrome-512x512.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
@@ -265,9 +305,9 @@
 </div>
 </a>
 </li>
-<li> 
-<a onclick="SpooferX()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/iPogoIcon.png" width="60"/></div>
+<li>
+<a href="#" class="item-link item-content popup-open" data-popup="#spooferx-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="https://www.spooferx.app/assets/img/spooferx-logo-256.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">SpooferX</div>    
@@ -277,8 +317,8 @@
 </a>
 </li>
 <li>
-<a onclick="INDS()" class="item-link item-content">
-<div class="item-media"><img style="border-radius: 23.3%;" src="https://icons.appinstallerios.com/iNDSIcon.png" width="60"/></div>
+<a href="#" class="item-link item-content popup-open" data-popup="#inds-popup">
+<div class="item-media"><img style="border-radius: 23.3%;" src="Img/inds.png" width="60"/></div>
 <div class="item-inner">
 <div class="item-title-row">
 <div class="item-title">INDS</div>    
@@ -291,7 +331,124 @@
 </div>
 </div>
 </div>
+<div class="popup"id="trollstore-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">TrollStore</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/trollstore.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/TrollStore-Fugu15.plist'">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>App that uses the CoreTrust bug to permanently sign apps.</p><h2>Screenshots</h2><p>No screenshots available.</div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="uncover-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Unc0ver</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/uncover.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="location='itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Unc0ver.plist'">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>The most advanced jail​break tool for
+iOS 11.0 - 14.8</p><h2>Screenshots</h2><div class="screenshot"><div><div><p>No screenshots available.</div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="taurine-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Taurine</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/taurine.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="Taurine()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>Jailbreak for iOS 14.0-14.3.</p><h2>Screenshots</h2><div class="screenshot"><div><div><img src="https://taurine.app/assets/images/iphones.png"></img></span></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="odyssey-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Odyssey</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/odyssey.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="Odyssey()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>No description available.</p><h2>Screenshots</h2><div class="screenshot"><div><div><img src="https://theodyssey.dev/assets/images/iphone.png"></img></span></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="chimera-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Chimera</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/chimera.jpeg" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="Chimera()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>Your device, 
+your way.
+
+All devices, iOS 12 — 12.5.7</p><h2>Screenshots</h2><div><div><p>No screenshots available.</div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="filza15-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">FilzaEscaped 15</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/filza.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="FilzaEscaped15()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>Root browser for iOS 15</p><h2>Screenshots</h2><div class="screenshot"><div><div><img src="https://basvtdevelopments.com/images/filza_screen.jpg"></img></span></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="filza16-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Filza Escaped 16</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/filza.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/FilzaEscaped16.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>Root browser for iOS 16</p><h2>Screenshots</h2><div class="screenshot"><div><div><img src="https://basvtdevelopments.com/images/filza_screen.jpg"></img></span></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="root-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Root</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/root.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="Root()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>Root browser</p><h2>Screenshots</h2><p>No screenhots available.</div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="delta-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Delta</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/delta.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Delta.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>No description available.</p><h2>Screenshots</h2><div class="screenshot"><div><div><img src="http://rileytestut.com/assets/images/posts/delta/ds/ds_skin_portrait.png"></img></span></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="ipogo-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">iPogo</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/ipogo.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/iPogo.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>No description available.</p><h2>Screenshots</h2><div class="screenshot"><div><div><img src="https://ipogo.app/assets/img/feature-iphone-1.png"></img></span></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="minecraft-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Minecraft</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/minecraft.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Minecraft.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>Free Minecraft</p><h2>Screenshots</h2><p>No screenshots available.</p></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="watusi-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Watusi</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/watusi.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Whatsapp.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>The best modded WhatsApp app.</p><h2>Screenshots</h2><p>No screenshots avaialable.</p></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="zinitevi-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">Zinitevi</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/zinitevi.jpg" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/Zinitevi.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>No description available.</p><h2>Screenshots</h2><p>No screenshots available.</p></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="spooferpro-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">SpooferPro</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="https://spooferpro.com/android-chrome-512x512.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="itms-services://?action=download-manifest&url=https://Drag0nOS.ga/plists/iPogo.plist">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>PokemonGO hack.</p><h2>Screenshots</h2><p>No screenshots available</p></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="spooferx-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">SpooferX</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="https://www.spooferx.app/assets/img/spooferx-logo-256.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="SpooferX()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>PokemonGo hack</p><h2>Screenshots</h2><p>No screenshots available</p></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup"id="inds-popup"><div class="view"><div class="page"><div class="navbar navbar-large no-outline"><div class="navbar-bg"></div><div class="navbar-inner"><div class="title sliding"></div><div class="title-large"><div class="title-large-text">INDS</div></div><div class="right"><a href="#" class="link popup-close"><i class="icon f7-icons if-not-md">xmark_circle_fill</i></a></div></div></div><div class="page-content"><div style="margin-top:53px;padding:0px;" class="block"><center><img style="display: inline-block; width:35%; margin-left: 5%; margin-top: 4.5%;border-radius: 23.3%;" src="Img/inds.png" width="60"><div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;"></div><div><br><div class="get"<a onclick="INDS()">GET</div></div></center><div class="block block-strong inset"><h2>Description</h2><p>A cool old games emulator</p><h2>Screenshots</h2><p>No screenshots available.</p></div></div></center>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 <script src="js/framework7.bundle.js"></script>
 <script src="js/routes.js"></script>
 <script src="js/app.js"></script>
 <script src="js/apps.js"></script>
+<script src="js/inobounce.js"></script>
